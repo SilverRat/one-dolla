@@ -1,0 +1,26 @@
+{
+  "name": "one-dolla",
+  "version": "1.0.0",
+  "description": "Enhancement to the 1 Dollar gesture recognition code",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SilverRat/one-dolla.git"
+  },
+  "keywords": [
+    "one-dollar",
+    "gesture"
+  ],
+  "author": "Jerry Gray",
+  "contributors": [
+    {"name": "Guy Sperry"}
+  ],
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/SilverRat/one-dolla/issues"
+  },
+  "homepage": "https://github.com/SilverRat/one-dolla#readme"
+}
