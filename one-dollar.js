@@ -87,6 +87,7 @@ function Rectangle(x, y, width, height) // constructor
 //
 function Unistroke(name, points) // constructor
 {
+	this.originalPoints = points;
 	this.Name = name;
 	this.Points = Resample(points, NumPoints);
 	var radians = IndicativeAngle(this.Points);
