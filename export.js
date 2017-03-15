@@ -1,5 +1,5 @@
 if (typeof define === 'function' && define.amd) {
-		define([], DollarRecognizer);
+		define(function() { return DollarRecognizer; });
 	} 
 	else if (typeof module !== "undefined" && module.exports) {
 		module.exports = DollarRecognizer;

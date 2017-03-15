@@ -357,7 +357,7 @@ function Distance(p1, p2)
 }
 function Deg2Rad(d) { return (d * Math.PI / 180.0); }
 if (typeof define === 'function' && define.amd) {
-		define([], DollarRecognizer);
+		define(function() { return DollarRecognizer; });
 	} 
 	else if (typeof module !== "undefined" && module.exports) {
 		module.exports = DollarRecognizer;
